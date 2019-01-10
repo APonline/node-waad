@@ -1,0 +1,28 @@
+{
+  "name": "node-waad",
+  "version": "2.3.2",
+  "description": "query windows azure active directory",
+  "main": "./lib",
+  "scripts": {
+    "test": "mocha -t 10000 -R spec --require should"
+  },
+  "repository": "https://github.com/auth0/node-waad",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "~1.2.1",
+    "lodash": "~1.0.0-rc.3"
+  },
+  "keywords": [
+    "waad",
+    "azure"
+  ],
+  "author": "Matias Woloski",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.74.0",
+    "jwt-simple": "~0.5.1",
+    "moment": "~2.18.1",
+    "async": "~0.1.22",
+    "xtend": "~1.0.3"
+  }
+}
